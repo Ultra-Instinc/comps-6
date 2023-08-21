@@ -10,7 +10,7 @@ const App = () => {
 
     return ( <div className="container ml-5  grid grid-cols-6 gap-4 mt-4">
         <SideBar/>
-        <div className="col-span-5 mx-auto overflow-hidden">
+        <div className="col-span-5  overflow-hidden">
             <Route path='/accordion' >
                 <AccordionPage/>        
             </Route>
